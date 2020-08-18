@@ -1,3 +1,9 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --studio-text: #000000;
+}
 body {
   background-color: ;
 }
@@ -8,8 +14,31 @@ body {
 /* акцент-синий текст #2196F3 */
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--studio-text);
+}
+ul {
+  list-style: none;
+}
+.header-nav a {
+  color: var(--title-text-color);
+}
+.header-nav a:hover,
+.header-nav a:focus {
+  color: var(--accent-color);
+}
+.header-adress a {
+  color: var(--primary-text-color);
+}
+.header-adress a:hover,
+.header-adress a:focus {
+  color: var(--accent-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.advantages-title .title {
+  color: var(--title-text-color);
 }
