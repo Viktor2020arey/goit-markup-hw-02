@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --studio-text: #000000;
   --white-text: #ffffff;
+  --bg-button-portfolio: #f5f4fa;
 }
 body {
   background-color: ;
@@ -47,9 +48,53 @@ ul {
 .advantages-title .title {
   color: var(--title-text-color);
 }
+.advantages-title .lead {
+  color: var(--primary-text-color);
+}
 
+/* our-team */
+.our-team .name {
+  color: var(--title-text-color);
+}
+.our-team .specialty {
+  color: var(--primary-text-color);
+}
 /* button */
 .button {
   background-color: var(--accent-color);
   color: var(--white-text);
+}
+
+/* Портфолио */
+.button-portfolio button {
+  background-color: var(--bg-button-portfolio);
+  color: var(--title-text-color);
+}
+
+.button-portfolio button:hover,
+.button-portfolio button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text);
+}
+.card-link h2 {
+  color: var(--title-text-color);
+}
+.card-link p {
+  color: var(--primary-text-color);
+}
+/* footer */
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--accent-color);
+}
+.studio-footer {
+  color: var(--white-text);
+}
+.adress-title .location {
+  color: var(--white-text);
+}
+.adress-title .link {
+  color: rgba(255, 255, 255, 0.6);
 }
