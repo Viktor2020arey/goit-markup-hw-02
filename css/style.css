@@ -3,6 +3,7 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --studio-text: #000000;
+  --white-text: #ffffff;
 }
 body {
   background-color: ;
@@ -29,6 +30,10 @@ ul {
 .header-nav a:focus {
   color: var(--accent-color);
 }
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
 .header-adress a {
   color: var(--primary-text-color);
 }
@@ -41,4 +46,10 @@ ul {
 }
 .advantages-title .title {
   color: var(--title-text-color);
+}
+
+/* button */
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-text);
 }
