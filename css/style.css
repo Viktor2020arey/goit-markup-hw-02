@@ -8,6 +8,8 @@
 }
 body {
   background-color: ;
+
+  font-family: roboto, sans-serif;
 }
 
 /* цвет основного текста #212121 */
@@ -17,6 +19,7 @@ body {
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
 }
 .logo-studio {
   color: var(--studio-text);
@@ -88,6 +91,7 @@ footer {
 }
 .logo-footer {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
 }
 .studio-footer {
   color: var(--white-text);
